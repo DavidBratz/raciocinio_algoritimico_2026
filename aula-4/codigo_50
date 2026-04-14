@@ -1,0 +1,19 @@
+quantidade_alunos = 0 
+media_turma = 0 
+while True:
+    nota_1 = float(input("INFORME A NOTA 1:"))
+    nota_2 = float(input("INFORME A NOTA 2:"))
+    nota_3 = float(input("INFORME A NOTA 3:"))
+    nota_4 = float(input("INFORME A NOTA 4:"))
+    soma_nota_aluno = nota_1 + nota_2 + nota_3 + nota_4
+    media_aluno = soma_nota_aluno / 4
+    media_turma += media_aluno 
+    if media_aluno >= 7:
+        print(f"VOCÊ FOI APROVADO, PARABÉNS {media_aluno}")
+    else:
+        print("VOCÊ FOI REPROVADO, MELHORE")
+    quantidade_alunos += 1
+    if quantidade_alunos == 50 :
+        break
+media_turma /= 50 
+print(f"A MÉDIA GERAL DA TURMA FOI DE:{media_turma:.2f}")
