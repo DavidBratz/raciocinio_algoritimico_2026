@@ -5,8 +5,8 @@ na_media = 0
 acima_media = 0
 for i in range(quantidade):
     nota = int(input(f"Informe a nota do {1 + i}º aluno:"))
-    while nota > 100:
-        print("Nota inválida! Digite um número até 100.")
+    while nota >= 0 or nota <= 100:
+        print("Nota inválida, digite um número até 100.")
         nota = int(input(f"Informe novamente a nota do {i + 1}º aluno: "))
     if nota < 60:
         abaixo_media += 1
