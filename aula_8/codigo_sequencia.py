@@ -20,4 +20,4 @@ for i in range (1, len(seq_num)):
         maior_seq = quant_v_c
         numero_seq = seq_num[i]
         
-print(f"A maior sequencia de números iguais consecutivos na lista foi , o número {numero_seq} se repetir {maior_seq} vezes consecutivas.")
+print(f"A maior sequencia de números iguais consecutivos na lista foi , o número {numero_seq} se repetindo {maior_seq} vezes consecutivas.")
