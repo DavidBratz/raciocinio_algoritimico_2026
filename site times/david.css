@@ -1,0 +1,173 @@
+h1{ 
+    margin: 0%; 
+} 
+
+body{ 
+background-color: rgb(0, 0, 0); 
+margin: 0px; 
+} 
+ 
+.titl_t{ 
+    color: rgb(255, 255, 255); 
+    display: flex; 
+    justify-content: center; 
+    font-size: 200%; 
+} 
+
+.lista{
+    
+    background-color: rgb(174, 184, 184); 
+    border-radius: 15px; 
+    width:auto ; 
+    height: 200%; 
+    margin-top: 20px; 
+}
+
+.titl_l{
+    color :rgb(255, 255, 255); 
+    display: flex; 
+    justify-content: left; 
+    font-size: 130%; 
+    margin: 0px;
+}
+.listagem{
+    display: flex; 
+    justify-content: left; 
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.listagem a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.gremio{ 
+    background-color: rgb(79, 133, 133); 
+    border-radius: 15px; 
+    width:auto ; 
+    height: 200%; 
+    margin-top: 20px; 
+} 
+
+.titl_g{ 
+    color :rgb(0, 242, 255); 
+    display: flex; 
+    justify-content: center; 
+    font-size: 150%; 
+    margin: 0px; 
+} 
+
+.hino_g{ 
+    display: flex; 
+    justify-content: center; 
+    font-size: 40px;
+    color :rgb(255, 255, 255); 
+} 
+
+.img_g{ 
+    display: flex; 
+    justify-content: center; 
+    height: 300px;
+} 
+
+.paranaense{
+    background-color: rgb(168, 58, 58); 
+    border-radius: 15px; 
+    width:auto ; 
+    height: 200%; 
+    margin-top: 20px;
+}
+.titl_a{ 
+    color: red; 
+    display: flex; 
+    justify-content: center; 
+    font-size: 150%; 
+} 
+
+.hino_a{ 
+    display: flex; 
+    justify-content: center; 
+    font-size: 40px ;
+    color :rgb(255, 255, 255); 
+} 
+
+.img_a{ 
+    display: flex; 
+    justify-content: center; 
+    height: 300px;
+} 
+
+p{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+    text-align: center; 
+} 
+
+.brasil{
+    background-color: rgb(47, 122, 49); 
+    border-radius: 15px; 
+    width:auto ; 
+    height: 200%; 
+    margin-top: 20px;
+}
+.titl_b{ 
+    color :rgb(6, 255, 6); 
+    display: flex; 
+    justify-content: center; 
+    font-size: 150%; 
+    margin: 0px; 
+} 
+
+.hino_b{ 
+    display: flex; 
+    justify-content: center; 
+    font-size: 40px;
+    color :rgb(255, 255, 255); 
+} 
+
+.img_b{ 
+    display: flex; 
+    justify-content: center; 
+    height: 300px;
+} 
+
+.tabela{
+    background-color: rgb(174, 184, 184);  
+    border-radius: 15px; 
+    width:auto ; 
+    height: 200%; 
+    margin-top: 20px; 
+}
+
+.titl_tab{
+    color :rgb(255, 255, 255); 
+    display: flex; 
+    justify-content: center;
+    font-size: 130%; 
+    margin: 0px;
+}
+
+.tab th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 18px;
+    font-size: 22px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tab td{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tab tr:hover td{
+    background-color: rgb(48, 145, 57);
+    transition: 0.3s;
+}
